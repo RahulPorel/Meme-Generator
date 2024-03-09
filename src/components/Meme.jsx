@@ -19,7 +19,7 @@ export default function Meme() {
       setAllMemes(data.data.memes);
     }
     getMemes();
-    }, []);
+  }, []);
 
   function getMemeImage() {
     const randomNumber = Math.floor(Math.random() * allMemes.length);
