@@ -9,7 +9,7 @@ window.onload = function generateJokeonPageLoad() {
 export default function Header() {
   return (
     <header className="header">
-      <img src="/src/assets/img/Troll Face.png" className="header--image" />
+      <img src="src/assets/img/logo.png" className="header--image" />
       <h2 className="header--title">Meme Generator</h2>
 
       <button id="my-btn" className="icon-btn">
